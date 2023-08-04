@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(243, 242, 242);
+  margin: auto;
+  width: 75vw;
+
+  /* border: 1px solid rgb(56, 227, 25); */
+}
+.main_container {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 50px;
+  /* border: 1px dashed rgb(79, 236, 17); */
+}
+
+.ulList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px 10px;
+}
+li {
+  font-family: Roboto;
+  font-weight: 700;
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+  /* border: 1px solid rgb(56, 227, 25); */
+}
+
+.sectionone {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.sectionone__leftbox {
+  width: 400px;
+  margin-left: 33px;
+  /* border: 1px solid rgb(96, 60, 30); */
+}
+
+.sectionone__rightbox {
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.sectionone__button {
+  background-color: rgb(245, 87, 87);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: Roboto;
+}
+
+h3 {
+  font-family: Roboto;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  left: 3px;
+  color: rgb(96, 96, 96);
+}
+
+.sectiontwo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(217, 243, 251);
+  padding: 50px 0px 50px 0px;
+  flex: 1 1;
+
+  margin: auto;
+}
+
+.box70per {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.sectiontwo__choice {
+  margin: 50px;
+  color: seagreen;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 70%;
+  margin: auto;
+}
+
+.sectiontwo__leftbox {
+  /* width: 350px; */
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid rgb(96, 60, 30); */
+  padding: 20px;
+  /* margin: 30px; */
+  /* height: 200px; */
+}
+
+.sectiontwo__leftbox * {
+  padding: 10px;
+}
+
+.sectiontwo__rightbox {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.sectiontwo__rightbox * {
+  padding: 10px;
+}
+
+.sectionthree {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 30px 0px;
+}
+
+.content__img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.content__rightbox {
+  font-size: initial;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.content__rightbox__year {
+  background-color: rgb(17, 24, 51);
+  border: 1px solid none;
+  border-radius: 9px;
+  width: 50px;
+  height: fit-content;
+  text-align: center;
+  color: white;
+  margin-right: 40px;
+}
+
+.content__rightbox__dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px 0px;
+}
+
+hr {
+  border: 0.1px solid rgb(237, 236, 236);
+  width: 60vw;
+  margin: auto;
+}
+
+.mainwork {
+  background-color: rgb(255, 255, 255);
+  width: 75vw;
+  padding-bottom: 50px;
+  /* height: 100vh; */
+}
+
+.mainwork__blog {
+  background-color: rgb(255, 255, 255);
+  width: 75vw;
+  /* padding-bottom: 300px; */
+  /* height: 100vh; */
+}
+
+.blogone {
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* gap: 50px; */
+}
+.blogtwo {
+  /* display: flex; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* gap: 20px; */
+}
+
+.blogthree {
+  /* display: flex; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* gap: 20px; */
+}
+
+.blogfour {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* gap: 20px; */
+}
+
+.footer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  gap: 20px;
+  /* margin-bottom: 83px; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+}
